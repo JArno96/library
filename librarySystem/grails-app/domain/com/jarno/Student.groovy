@@ -8,7 +8,10 @@ String password
 String studentId
 Course course
 
-    static constraints = {
+static hasMany = [book:Book, bookreviews:BookReviews, libraries:Library]
+static belongsTo = Course
+    
+static constraints = {
 name blank:false, nullable:false
 email blank:false, nullable:false, email:true
 username blank:false, nullable:false , unique:true

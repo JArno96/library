@@ -9,6 +9,12 @@ Date dateBorrowed
 Date returnDate
 String student
 boolean overdue
+
+static hasMany=[bookReviews:BookReview]
+static belongsTo = Library
+
+
+
     
      static constraints = {
 title blank:false, nullable:false
