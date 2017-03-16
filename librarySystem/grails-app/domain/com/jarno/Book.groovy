@@ -11,13 +11,13 @@ String student
 boolean overdue
     
      static constraints = {
-title:blank, nullable:false
-subject:blank, nullable:false
-author:blank, nullable:false
-isbn:blank, nullable:false, unique:true
-dateBorrowed:blank, nullable:false
-returnDate:blank, nullable:false
-student:blank, nullable:false
-overdue:blank, nullable:false
+title blank:false, nullable:false
+subject blank:false, nullable:false
+author blank:false , nullable:false
+isbn blank:false , nullable:false, unique:true
+dateBorrowed blank:false , nullable:false
+returnDate blank:false, nullable:false
+student blank:false , nullable:false
+overdue blank:false, nullable:false
     }
 }
