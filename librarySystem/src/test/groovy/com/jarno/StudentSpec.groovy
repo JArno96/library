@@ -15,7 +15,7 @@ class StudentSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
+    void "Test something here"() {
         expect:"fix me"
             true == false
     }

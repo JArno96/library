@@ -7,8 +7,9 @@ String username
 String password
 String studentId
 Course course
+Library library
 
-static hasMany = [book:Book, bookreviews:BookReviews, libraries:Library]
+static hasMany = [book:Book, bookreviews:BookReview, ]
 static belongsTo = Course
     
 static constraints = {
