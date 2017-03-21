@@ -4,8 +4,8 @@ class BootStrap {
 
 	def init = { servletContext ->
 
-
-/*def librarian1 = new Librarian(
+/*
+def librarian1 = new Librarian(
 name:'Richard Bath',
 email:'rbath@outlook.com',
 office:'Office-2211',
@@ -46,10 +46,10 @@ title: 'Harry Potter and The Deadly Beasts',
 subject: 'Thriller',
 author: 'JK Rowling',
 isbn: '4354325',
-dateBorrowed: ('16/03/2017'),
-returnDate: ('27/03/2017'),
+dateBorrowed: new Date ('16/03/2017'),
+returnDate: new Date ('27/03/2017'),
 student: ' James Arno',
-overdue: 'false')
+overdue:false )
 .save()
 
 def book2 = new Book(
@@ -57,10 +57,10 @@ title: 'Sheffield Is Blue',
 subject: 'Sport',
 author: 'Dephjon Chansiri',
 isbn: '4354315',
-dateBorrowed: ('16/03/2017'),
-returnDate: ('31/03/2017'),
+dateBorrowed: new Date ('16/03/2017'),
+returnDate:  new Date ('31/03/2017'),
 student: ' Louise Biggin',
-overdue: 'false')
+overdue: false)
 .save()
 
 def student1= new Student(
@@ -101,17 +101,18 @@ studyMode:'Full-time')
 
 def bookreview1 = new BookReview(
 book:' Harry Potter and The Deadly Beasts',
-dateCreated:('16/03/2017'),
+dateMade: new Date ('16/03/2017'),
 student:'James Arno',
-review:'true')
+review:'This book so far has been fantastic. I would highly recommend it to anyone')
 .save()
 
 def bookreview2  = new BookReview(
 book:' Sheffield Is Blue',
-dateCreated:('16/03/2017'),
+dateMade: new Date ('16/03/2017'),
 student:'Louise Biggin',
-review:'true')
-.save() */
+review:'Sheffield really is blue')
+.save() 
+*/
 
     }
     def destroy = {

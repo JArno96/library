@@ -9,8 +9,8 @@ String studentId
 Course course
 Library library
 
-static hasMany = [book:Book, bookreviews:BookReview, ]
-static belongsTo = Course
+static hasMany = [books:Book, bookreviews:BookReview, ]
+
     
 static constraints = {
 name blank:false, nullable:false

@@ -6,18 +6,18 @@ String email
 String office
 String username
 String password
-int telephone
-String library
+String telephone
+Library library
 
 
 static belongsTo = Library
     static constraints = {
 
 name blank:false,  nullable:false
-email blank:false, nullable:false , email:true
+email blank:false, nullable:false, email:true
 office blank:false, nullable:false
 username blank:false, nullable:false, unique:true
-password blank:false, nullable:false
+password blank:false, nullable:false 
 telephone blank:false, nullable:false
 library blank:false, nullable:false
 
