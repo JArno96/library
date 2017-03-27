@@ -3,7 +3,7 @@ package com.jarno
 class Student {
 String name
 String email
-String username
+String userName
 String password
 String studentId
 Course course
@@ -15,7 +15,7 @@ static hasMany = [books:Book, bookreviews:BookReview, ]
 static constraints = {
 name blank:false, nullable:false
 email blank:false, nullable:false, email:true
-username blank:false, nullable:false , unique:true
+userName blank:false, nullable:false , unique:true
 password blank:false, nullable:false
 studentId blank:false, nullable:false
 course blank:false, nullable:false

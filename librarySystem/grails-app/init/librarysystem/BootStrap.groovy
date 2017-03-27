@@ -9,7 +9,7 @@ def librarian1 = new Librarian(
 name:'Richard Bath',
 email:'rbath@outlook.com',
 office:'Office-2211',
-username:'RBath',
+userName:'RBath',
 password:'rbath1',
 telephone: '01142648123',
 library:'SHU Librarian')
@@ -19,7 +19,7 @@ def librarian2 =  new Librarian(
 name:'Katy Smith',
 email:'ksmith@outlook.com',
 office:'Office-2212',
-username:'KSmith',
+userName:'KSmith',
 password:'KSmith1',
 telephone: '01142648124',
 library:'SHU Librarian')
@@ -66,7 +66,7 @@ overdue: false)
 def student1= new Student(
 name:'James Arno',
 email:'b5021487@my.shu.ac.uk',
-username:'jamesarno96',
+userName:'jamesarno96',
 password:'jamesa96',
 studentId: 'b5021487',
 course:'BSc Hon Computing')
@@ -75,7 +75,7 @@ course:'BSc Hon Computing')
 def student2 = new Student(
 name:'Louise',
 email:'b5016549@my.shu.ac.uk',
-username:'lbiggin17',
+userName:'lbiggin17',
 password:'owls17',
 studentId: 'b5016549',
 course:'BSC Maths and Statistics')
