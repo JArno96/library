@@ -28,7 +28,7 @@
 
 <p> Welcome to the Library Management System</p>
 	<button type="button" class="btn btn-success">
-	<g:link controller="library"action="create">Add books to Library</g:link>
+	<g:link controller="book"action="create">Add books to Library</g:link>
 	</button
 </div>
 
@@ -47,7 +47,7 @@
 	<h3> Register Librarians </h3>
 <p> This is where we register new librarians </p>
 	<button type="button" class="btn btn-success">
-	<g:link controller="librarians" action="create">Register New Librarians</g:link>
+	<g:link controller="librarian" action="create">Register New Librarians</g:link>
 	</button
 </div>
 </div>
