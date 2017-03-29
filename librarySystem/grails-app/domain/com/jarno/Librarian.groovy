@@ -9,6 +9,11 @@ String password
 String telephone
 Library library
 
+String toString()
+{
+	"$name , $office, $email"
+}
+
 static belongsTo = Library
     static constraints = {
 
