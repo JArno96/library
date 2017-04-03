@@ -8,6 +8,8 @@ String department
 String description
 String studyMode
 
+
+
 static hasMany = [students:Student]
 
 

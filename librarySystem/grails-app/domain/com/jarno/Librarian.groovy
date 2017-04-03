@@ -14,6 +14,12 @@ String toString()
 	"$name , $office, $email"
 }
 
+String emailType(){
+
+"$email"
+
+}
+
 static belongsTo = Library
     static constraints = {
 
