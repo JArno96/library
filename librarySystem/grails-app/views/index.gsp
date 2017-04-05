@@ -12,11 +12,7 @@
     <div id="content" role="main">
      <section class ="row colset-2-its">
                    <h1 align = "center"> Welcome to My Library Information Page </h1>
-	
 
-<div class ="row">
-		<asset:image src = "library.jpg"/>
-</div
 
 	
 </section>

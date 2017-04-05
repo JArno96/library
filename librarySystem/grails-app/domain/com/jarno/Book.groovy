@@ -10,7 +10,6 @@ Date returnDate
 Student student
 boolean overdue
 
-
 static hasMany=[bookReviews:BookReview]
 static belongsTo = Library
 
@@ -19,7 +18,6 @@ String toString() {
 "$title"
 
 }
-
 
 
 

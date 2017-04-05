@@ -33,7 +33,7 @@
 
 <div class="first">
 	<h3> Display details of Books in Library System</h3>
-<p>  </p>
+<p>  This page provides details of books in Library</p>
 	<button type="button" class="btn btn-success">
 	<g:link controller="book"action="index">Details of Books</g:link>
 	</button>

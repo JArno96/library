@@ -15,8 +15,7 @@
 	<div class = "first">
 		<h3> Librarian Management</h3>
 
-<p> Welcome to the Librarian Management System
-</p>
+<p> Welcome to the Librarian Management System</p>
 	<button type="button" class="btn btn-success">
 	<g:link controller="student"action="create"> Register Students</g:link>
 	</button>
@@ -24,32 +23,41 @@
 </div
 
 <div class="second">
-	<h3> Library Management System</h3>
+		<h3> Library Management System</h3>
 
 <p> Welcome to the Library Management System</p>
 	<button type="button" class="btn btn-success">
 	<g:link controller="book"action="create">Add books to Library</g:link>
-	</button
+	</button>
 </div>
 
-<div class="first">
-	<h3> Courses Management</h3>
+	<div class="first">
+		<h3> Courses Management</h3>
+
 <p> This is the Courses Management System </p>
 	<button type="button" class="btn btn-success">
 	<g:link controller="course"action="create">Create courses</g:link>
 	</button>
 </div>
 
+	<div class="second">
+		<h3> Register Librarians </h3>
 
-
-
-<div class="second">
-	<h3> Register Librarians </h3>
 <p> This is where we register new librarians </p>
 	<button type="button" class="btn btn-success">
-	<g:link controller="librarian" action="create">Register New Librarians</g:link>
-	</button
+	<g:link controller="librarian" action="create"> Register New Librarians</g:link>
+	</button>
 </div>
+
+	<div class="first">
+		<h3> Advanced Search</h3>
+
+<p> This is the Advanced Search Page </p>
+	<button type="button" class="btn btn-success">
+	<g:link controller="student" action="advSearch"> Student Search</g:link>
+	</button>
+
+
 </div>
 </body>
 </html>
