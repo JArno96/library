@@ -39,6 +39,15 @@
 	</button>
 </div>
 
+<div class="second">
+		<h3> Advanced Search</h3>
+
+<p> This is the Advanced Book Search Page </p>
+	<button type="button" class="btn btn-success">
+	<g:link controller="book" action="advSearch"> Book Search</g:link>
+	</button>
+
+
 
 
 
