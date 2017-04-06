@@ -20,6 +20,12 @@ String toString() {
 }
 
 
+Date dateType(){
+
+dateBorrowed
+
+}
+
 
 
 

@@ -15,6 +15,16 @@ class BookSpec extends Specification {
     def cleanup() {
     }
 
+void dateType(){
+
+when: "A Book has title and dateBorrowed"
+def book1=new Book(title: 'book1', dateBorrowed: new Date('16/03/2017'))
+then: "The dateType method will return the date"
+
+book1.dateType()==new Date('16/03/2017')
+
+}
+
     
 
 }
